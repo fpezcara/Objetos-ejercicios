@@ -66,4 +66,35 @@ console.log("El ID y nombre de Radia: " + usuarioRadia.id + ", " + usuarioRadia.
 // 5. El telefono de Sheryl
 console.log("El teléfono de Sheryl: " + usuarioSheryl.telefono)
 
+// **EJERCICIO 4
+
+const disco = {
+    id: 1,
+    nombre: 'Wasting Light',
+    anioLanzamiento: 2011,
+    cantidadDeTemas: 12,
+    banda: {
+      nombre: 'Foo Fighters',
+      anioFormacion: 1994
+    }
+  };
+  
+  console.log(`El disco ${disco.nombre} de la banda ${disco.banda.nombre} se lanzó en el año ${disco.anioLanzamiento}`)
+//   Mostrar en consola el siguiente mensaje usando las propiedades del objeto:
+//   El disco Wasting Light de la banda Foo Fighters se lanzó en el año 2011
+  
+// **EJERCICIO 5
+// Crear un array llamado tecnologiasConocidas donde se listen las tecnologias que aprendiste durante el curso y las que ya supieras de antes
+
+let tecnologiasConocidas = ["github", "slack", "node", "Visual Studio Code"]
+
+
+// Agregar al objeto creado en el ejercicio 1 dos propiedades:
+
+user.sabeProgramar = true;
+
+user.tecnologiasConocidas = tecnologiasConocidas;
+
+console.log(user)
+
 
